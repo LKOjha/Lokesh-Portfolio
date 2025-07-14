@@ -1,18 +1,56 @@
 [
   {
-    "title": "Srijan 2K25", 
-    "description": "It is an compitition multiple type of projects where we have presentated our Bio_metric EVM",
+    "title": "Collage Farewell",
+    "date": "April 8, 2025",
+    "description": "Saying goodbye is never easy, especially to a place that gave me so many memories, lessons, and friendships. My college journey was filled with laughter, late-night studies, last-minute submissions, and moments that will stay with me forever. As we all step into a new phase of life, I’ll always carry a part of this chapter with me. Here's to unforgettable years, amazing people, and a farewell that’s more of a “see you soon.” 💫",
     "images": [
-      "/blog1/img1.jpg",
-      "/blog1/img2.jpg",
-      "/blog1/img4.jpg"
+      "/blog3/img1.jpg",
+      "/blog3/img2.jpg",
+      "/blog3/img3.jpg",
+      "/blog3/img4.jpg",
+      "/blog3/img5.jpg",
+      "/blog3/img6.jpg",
+      "/blog3/img7.jpg"
     ]
   },
   {
-    "title": "IET KK Wagh Expo 25 at IET KK Wagh College, Nashik      ",
-    "description": "In Nshik IET kk wagh expo event we have learn lot of things",
+    "title": "Srijan 2K25",
+    "date": "April 10, 2025",
+    "description": "A multi-disciplinary competition where we showcased our Biometric EVM project, receiving excellent feedback and learning from others' innovations.",
     "images": [
-      "/blog2/img1.jpg"
+      "/blog1/img1.jpg",
+      "/blog1/img7.jpg",
+      "/blog1/img2.jpg",
+      "/blog1/img6.jpg",
+      "/blog1/img4.jpg",
+      "/blog1/img5.jpg",
+      "/blog1/img3.jpg"
+    ]
+  },
+  {
+    "title": "IET KK Wagh Expo 2025, Nashik",
+    "date": "February 28, 2025",
+    "description": "At the IET KK Wagh Expo in Nashik, we explored a wide range of tech projects, networked with fellow innovators, and learned valuable lessons for future development.",
+    "images": [
+      "/blog2/img1.jpg",
+      "/blog2/img2.jpg",
+      "/blog2/img3.jpg",
+      "/blog2/img4.jpg"
+    ]
+  },
+  {
+    "title": "Spandal 2K24",
+    "date": "January 24, 2025",
+    "description": "It was one of my favorite time ever, i really have enjoyed being participating in cultural programs, in fasion show, in stalls, and also we have managed the event fun fair in the guidence of our HOD sir vijay malvia sir, its a very good time",
+    "images": [
+      "/blog4/img1.jpg",
+      "/blog4/img2.jpg",
+      "/blog4/img3.jpg",
+      "/blog4/img4.jpg",
+      "/blog4/img5.jpg",
+      "/blog4/img6.jpg",
+      "/blog4/img7.jpg",
+      "/blog4/img8.jpg"
     ]
   }
 ]

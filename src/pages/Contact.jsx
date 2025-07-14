@@ -108,19 +108,19 @@ const Contact = () => {
                         </p>
                         <p className="text-lg">
                             💼 LinkedIn:{" "}
-                            <a href="https://www.linkedin.com/in/lokesh-vishwakarma-ba1aa720a" className="text-yellow-400 hover:underline">
+                            <a href="https://www.linkedin.com/in/lokesh-vishwakarma-ba1aa720a" target="main" className="text-yellow-400 hover:underline">
                                 Follow me on LinkedIn
                             </a>
                         </p>
                         <p className="text-lg">
                             🐱 GitHub:{" "}
-                            <a href="https://github.com/LKOjha" className="text-yellow-400 hover:underline">
+                            <a href="https://github.com/LKOjha" target="main" className="text-yellow-400 hover:underline">
                                 Follow me on GitHub
                             </a>
                         </p>
                         <p className="text-lg">
                             🔷 Instagram:{" "}
-                            <a href="https://www.instagram.com/lokesh_vish_207?igsh=YmtkY3lueG5uaWVw" className="text-yellow-400 hover:underline">
+                            <a href="https://www.instagram.com/lokesh_vish_207?igsh=YmtkY3lueG5uaWVw" target="main" className="text-yellow-400 hover:underline">
                                 Follow me on Instagram
                             </a>
                         </p>

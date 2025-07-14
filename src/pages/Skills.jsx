@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaReact, FaHtml5, FaCss3Alt, FaJsSquare, FaNodeJs, FaGithub } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
+import { SiMongodb, SiCplusplus, SiArduino } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
@@ -56,6 +56,15 @@ const Skills = () => {
                         <div className="bg-gray-800 hover:bg-yellow-400 hover:text-black shadow-lg rounded-lg p-6 transition-transform transform hover:-translate-y-1 hover:scale-105">
                             <SiTailwindcss size={40} className="mx-auto mb-2" />
                             <p className="font-semibold text-lg">Tailwind CSS</p>
+                        </div>
+
+                        <div className="bg-gray-800 hover:bg-yellow-400 hover:text-black shadow-lg rounded-lg p-6 transition-transform transform hover:-translate-y-1 hover:scale-105">
+                            <SiArduino size={40} className="mx-auto mb-2" />
+                            <p className="font-semibold text-lg">Microcontrollers</p>
+                        </div>
+                        <div className="bg-gray-800 hover:bg-yellow-400 hover:text-black shadow-lg rounded-lg p-6 transition-transform transform hover:-translate-y-1 hover:scale-105">
+                            <SiCplusplus size={40} className="mx-auto mb-2" />
+                            <p className="font-semibold text-lg">C and C++</p>
                         </div>
                     </div>
                 </div>

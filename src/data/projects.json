@@ -1,0 +1,75 @@
+[
+    {
+    "title": "Auto_Rescue",
+    "description": " This is an automatic Door Locking system via Voice command, make with the help of arduino uno, ai thinker, car door actuator and other basic compnent",
+    "image": "/Auto-Rescue.png",
+    "techStack": "Arduino Nano, GPS, SIM800L",
+    "demoLink": "/demo/auto-rescue.html",
+    "githubLink": "https://github.com/LKOjha/Auto_Rescue_Automated_Accident_Detectoin_and_Calling_System"
+  },
+  {
+    "title": "Mini Ecommmerce Website",
+    "description": "A simple Mini E-Commerce Web App built with the MERN stack. Includes an admin panel for product management and a customer panel with cart and checkout features. Supports local image uploads, cart persistence, and a clean, responsive UI.",
+    "image": "/ec1.png",
+    "techStack": "HTML, CSS, taiwind, Reac Js, Node js, Mongo DB",
+    "demoLink": "/demo/Mini-Ecommerce-Website.html",
+    "githubLink": "https://github.com/LKOjha/Mini-Ecommerce-Website"
+  },
+  {
+    "title": "Biometric-EVM",
+    "description": "Biometric EVM is a secure electronic voting machine prototype that uses fingerprint or biometric verification to authenticate voters. It helps prevent impersonation and ensures only eligible voters can cast their votes, making the election process safer and more reliable.",
+    "image": "/be1.png",
+    "techStack": "Arduino Mega, Analog Display, Finger Print sensor, RTC module;",
+    "demoLink": "/demo/Biometric-EVM.html",
+    "githubLink": "https://github.com/LKOjha/Biometric-EVM"
+  },
+  {
+    "title": "Door Locking System Via Voice Command",
+    "description": "Door Locking System is a simple security solution that uses electronic controls to lock and unlock doors. It can include features like password entry, biometric verification, or RFID for safer and more convenient access to your home or office.",
+    "image": "/dl1.png",
+    "techStack": "Arduino Uno, AI Thinker, Car Door Lock Actuator",
+    "demoLink": "/demo/door-locking-system.html",
+    "githubLink": "https://github.com/LKOjha/Door-Locking-System-Via-Voice-Command"
+  },
+  {
+    "title": "Object Avoider",
+    "description": "It is simple and very project based on arduino uno and some sensors like ultrosonic sensor maybe u could say its like sonar, well this one here usase sound wave to avoid the objects and changes its direction accordingly",
+    "image": "/oa1.png",
+    "techStack": "Arduino Uno,ultrasonic sound sensor, motors",
+    "demoLink": "/demo/object-avoider.html",
+    "githubLink": "https://github.com/LKOjha"
+  },
+  {
+    "title": "Chatter",
+    "description": "A Simple chatting application built on Mongodb and express js in order to learn the basic CRUD operations.",
+    "image": "/chatter1.png",
+    "techStack": "MondoDB, Express JS, Node JS",
+    "demoLink": "/demo/Chatter.html",
+    "githubLink": "https://github.com/LKOjha/Chatter"
+  },
+  {
+    "title": "Netflix-clone",
+    "description": "A simple practicing project of Netflix-clone made with HTML and CSS, only for demonstrating some practice sets and for understanding the basics of ui desings ",
+    "image": "/netflix1.png",
+    "techStack": "HTML, CSS",
+    "demoLink": "/demo/Netflix-clone.html",
+    "githubLink": "https://github.com/LKOjha/Netflix-clone-"
+  },
+  {
+    "title": "Spotify Clone with Media Player",
+    "description": "It is simply a clone of spotify application built with html, css and java script, also I have made one media player along with the ui of spotify, we here are able to add some media files and albums if we wanted to",
+    "image": "/spotify1.png",
+    "techStack": "HTML, CSS, JavaScript",
+    "demoLink": "/demo/Spotify.html",
+    "githubLink": "https://github.com/LKOjha/Spotify"
+  },
+  {
+    "title": "Student crud app ",
+    "description": "Simple demonstration and practice of CRUD operations with the help of MongoDB, react JS, node JS",
+    "image": "/sca1.png",
+    "techStack": "MongoDB, react JS, node JS",
+    "demoLink": "/demo/Student-crud-app.html",
+    "githubLink": "https://github.com/LKOjha/Student-crud-app"
+  }
+]
+ 

@@ -79,21 +79,39 @@ const Home = () => {
 
           <div className="space-y-10">
             {eventsData.map((event, index) => (
-              <div key={index} className="bg-gray-800 p-6 md:p-8 rounded-lg shadow-md">
-                <h4 className="text-xl font-semibold mb-4 text-white">
-                  {event.title}
+              <div
+                key={index}
+                className="bg-gray-800 p-6 md:p-8 rounded-xl shadow-lg "
+              >
+                <h4 className="text-2xl font-semibold text-yellow-300 mb-1">
+                  {event.title.trim()}
                 </h4>
+                <p className="text-sm text-gray-400 mb-4">{event.date}</p>
+
 
                 {/* Image Grid */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
                   {event.images.map((img, i) => (
-                    <img key={i} src={img} alt={`event-${i}`} className="rounded-md" />
+                    <img
+                      key={i}
+                      src={img}
+                      alt={`event-${i}`}
+                      className="rounded-lg hover:scale-105 transition-transform duration-300 border border-yellow-900"
+                    />
                   ))}
                 </div>
 
-                <p className="text-gray-300">{event.description}</p>
+                <p className="text-gray-300 leading-relaxed mb-4">
+                  {event.description}
+                </p>
+
+                {/* Optional CTA button
+                <button className="mt-2 text-sm text-yellow-400 hover:text-yellow-300 underline">
+                  Read More →
+                </button> */}
               </div>
             ))}
+
           </div>
         </div>
       </motion.div>

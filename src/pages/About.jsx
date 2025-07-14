@@ -35,10 +35,16 @@ const About = () => {
                                 Hi! I'm <span className="font-semibold text-yellow-600">Lokesh Vishwakarma</span>, a passionate and motivated web developer with a strong background in frontend and backend development.
                             </p>
                             <p className="mb-4">
-                                I love building intuitive, scalable, and user-focused applications using modern technologies like React, Node.js, and MongoDB.
+                                For me, coding isn’t just about writing lines—it's about creating something that actually works and makes life a bit easier (or just more fun!).
                             </p>
-                            <p>
-                                I'm always eager to learn new tools and frameworks to stay ahead in this fast-paced tech world. Let’s build something amazing together!
+                            <p className="mb-4">
+                                Even though I’m from an IT background, I’ve always had a strong interest in electronics too. It might be out of my field, but that never stopped me from exploring it. In fact, I’ve even built a few electronics projects just because I was curious and wanted to try something new.
+                            </p >
+                            <p className="mb-4">
+                                I believe in learning by doing, and I’m always looking for opportunities to grow, build, and try new things. Whether it’s web development or something completely different, I love diving in and figuring things out.
+                            </p>
+                            <p className="font-semibold text-yellow-200">
+                                Thanks for stopping by! Feel free to explore my work—there’s always something new around the corner. 😊
                             </p>
                         </div>
                     </div>
@@ -187,8 +193,8 @@ const About = () => {
                                 {/* Left Column */}
                                 <div className="space-y-3">
                                     <p><span className="text-yellow-400 font-semibold">Full Name:</span> Lokesh Vishwakarma</p>
-                                    <p><span className="text-yellow-400 font-semibold">Date of Birth:</span> 2nd Auguest, 2002</p>
-                                    <p><a href="https://maps.app.goo.gl/k9LrsGxBdvoiT7VW7" target="main"><span className="text-yellow-400 font-semibold">Current address:</span> Adarsh Moulik nagar, indore, Madhya pradesh, India </a></p>
+                                    <p><span className="text-yellow-400 font-semibold">Date of Birth:</span> 2nd August, 2002</p>
+                                    <p><a href="https://maps.app.goo.gl/k9LrsGxBdvoiT7VW7" target="main"><span className="text-yellow-400 font-semibold">Current address:</span> Adarsh Moulik nagar, Indore, Madhya pradesh, India </a></p>
                                     <p><a href="https://maps.app.goo.gl/9TBjcur2yDjjV2n26" target="main"><span className="text-yellow-400 font-semibold">Home Town:</span> Lateri, Madhya pradesh, India </a></p>
                                 </div>
 
