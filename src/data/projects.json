@@ -1,7 +1,15 @@
 [
     {
+    "title": "B&D Creations",
+    "description": "B&D Creations is a mini e-commerce platform built with the MERN stack, made for art students to showcase and sell their artwork online. It features a product gallery, shopping cart, admin panel, and contact form with email notifications. The site is fully responsive, user-friendly, and designed to help young artists promote their work easily.",
+    "image": "/bdcreations.png",
+    "techStack": "HTML, CSS, tailwind, React Js, Node js, Mongo DB",
+    "demoLink": "/demo/bdcreations.html",
+    "githubLink": "https://github.com/LKOjha/B-D_Creations-Front-end-only-"
+  },
+    {
     "title": "Auto_Rescue",
-    "description": " This is an automatic Door Locking system via Voice command, make with the help of arduino uno, ai thinker, car door actuator and other basic compnent",
+    "description": "This is an Automatic Door Locking System operated via voice command, built using an Arduino Uno, AI Thinker module, car door actuator, and other basic components.",
     "image": "/Auto-Rescue.png",
     "techStack": "Arduino Nano, GPS, SIM800L",
     "demoLink": "/demo/auto-rescue.html",
@@ -11,7 +19,7 @@
     "title": "Mini Ecommmerce Website",
     "description": "A simple Mini E-Commerce Web App built with the MERN stack. Includes an admin panel for product management and a customer panel with cart and checkout features. Supports local image uploads, cart persistence, and a clean, responsive UI.",
     "image": "/ec1.png",
-    "techStack": "HTML, CSS, taiwind, Reac Js, Node js, Mongo DB",
+    "techStack": "HTML, CSS, tailwind, React Js, Node js, Mongo DB",
     "demoLink": "/demo/Mini-Ecommerce-Website.html",
     "githubLink": "https://github.com/LKOjha/Mini-Ecommerce-Website"
   },
@@ -33,7 +41,7 @@
   },
   {
     "title": "Object Avoider",
-    "description": "It is simple and very project based on arduino uno and some sensors like ultrosonic sensor maybe u could say its like sonar, well this one here usase sound wave to avoid the objects and changes its direction accordingly",
+    "description": "This is a simple yet effective project based on the Arduino Uno and sensors like the ultrasonic sensor — you could say it's similar to sonar. It uses sound waves to detect obstacles and automatically changes direction to avoid them.",
     "image": "/oa1.png",
     "techStack": "Arduino Uno,ultrasonic sound sensor, motors",
     "demoLink": "/demo/object-avoider.html",
@@ -57,7 +65,7 @@
   },
   {
     "title": "Spotify Clone with Media Player",
-    "description": "It is simply a clone of spotify application built with html, css and java script, also I have made one media player along with the ui of spotify, we here are able to add some media files and albums if we wanted to",
+    "description": "This is a simple clone of the Spotify application, built using HTML, CSS, and JavaScript. Along with replicating Spotify’s UI, I also developed a media player that allows users to add their own media files and albums.",
     "image": "/spotify1.png",
     "techStack": "HTML, CSS, JavaScript",
     "demoLink": "/demo/Spotify.html",
