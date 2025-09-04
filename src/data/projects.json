@@ -1,5 +1,13 @@
 [
     {
+    "title": "Karori Academic Advisor",
+    "description": "Karori Academic Advisor is a frontend-based informational website designed to guide 12th-pass students in their academic journey. Built with React and Tailwind CSS, it provides clear insights into courses, career paths, and services. The platform offers a modern, responsive, and user-friendly experience, making educational guidance easily accessible.",
+    "image": "/karori.png",
+    "techStack": "HTML, CSS, tailwind, React Js, Node js, Mongo DB, Email-us",
+    "demoLink": "https://www.karoriacademicadvisor.com/",
+    "githubLink": "https://github.com/LKOjha/Karori-Academic-Advisor"
+  },
+    {
     "title": "B&D Creations",
     "description": "B&D Creations is a mini e-commerce platform built with the MERN stack, made for art students to showcase and sell their artwork online. It features a product gallery, shopping cart, admin panel, and contact form with email notifications. The site is fully responsive, user-friendly, and designed to help young artists promote their work easily.",
     "image": "/bdcreations.png",
