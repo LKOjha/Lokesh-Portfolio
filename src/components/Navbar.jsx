@@ -20,6 +20,8 @@ const Navbar = () => {
           <Link to="/skills" className="hover:text-yellow-400">Skills</Link>
           <Link to="/projects" className="hover:text-yellow-400">Projects</Link>
           <Link to="/contact" className="hover:text-yellow-400">Contact</Link>
+          {/* <Link to="/contact2" className="hover:text-yellow-400">Contact 2</Link> */}
+          
         </div>
 
         {/* Hamburger Icon (for mobile) */}

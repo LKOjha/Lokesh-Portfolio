@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import { collection, addDoc, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
-
-
+import { User, MessageSquareQuote, Send } from "lucide-react";
 
 const Testimonials = () => {
     const [testimonials, setTestimonials] = useState([]);
@@ -22,59 +21,107 @@ const Testimonials = () => {
         e.preventDefault();
 
         try {
-            console.log("Sending this to Firebase:", formData); // ✅ Debug line
             await addDoc(collection(db, "testimonials"), formData);
-            console.log("Successfully saved to Firebase! ✅");
             setFormData({ name: "", message: "" });
-            fetchTestimonials(); // reload all
+            fetchTestimonials();
         } catch (error) {
-            console.error("Firebase error:", error); // ❌ Debug line
+            console.error("Firebase error:", error);
         }
     };
 
-
-
     return (
-        <section className="py-16 bg-gray-950 text-white px-4 sm:px-6 md:px-12 lg:px-20">
-            <div className="max-w-4xl mx-auto">
-                <h2 className="text-3xl font-bold text-yellow-400 mb-8 text-left">Feedback Form</h2>
+        <section className="relative py-20  px-4 overflow-hidden">
+            {/* Background Glow */}
+            <div className="absolute inset-0 -z-10 ">
+                <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-purple-500/20 rounded-full blur-[120px]" />
+        <div className="absolute bottom-20 right-10 w-[400px] h-[400px] bg-yellow-400/20 rounded-full blur-[100px]" />
+    </div>
 
-                {/* Display */}
-                <div className="space-y-6 mb-12">
+            <div className="max-w-3xl mx-auto">
+
+                {/* Heading */}
+                <h2 className="text-3xl font-bold text-yellow-400 mb-10 text-left">
+                    What People Say
+                </h2>
+
+                {/* Testimonials List (Single Column) */}
+                <div className="space-y-6 mb-16">
                     {testimonials.map((t, index) => (
-                        <div key={index} className="bg-gray-800 p-4 rounded-md shadow">
-                            <p className="text-gray-300 italic">"{t.message}"</p>
-                            <p className="text-sm text-yellow-400 mt-2">– {t.name}</p>
+                        <div
+                            key={index}
+                            className="bg-[#100d25] border border-white/5 p-6 rounded-xl shadow-lg"
+                        >
+                            <div className="flex items-start gap-3">
+                                <MessageSquareQuote className="text-yellow-400 w-6 h-6 mt-1" />
+                                <p className="text-gray-300 italic">
+                                    "{t.message}"
+                                </p>
+                            </div>
+
+                            <div className="flex items-center gap-2 mt-4 text-yellow-400">
+                                <User className="w-4 h-4" />
+                                <span className="text-sm font-medium">
+                                    {t.name}
+                                </span>
+                            </div>
                         </div>
                     ))}
                 </div>
 
-                {/* Form */}
-                <form onSubmit={handleSubmit} className="space-y-4 bg-gray-900 p-6 rounded-lg shadow-md">
-                    <h3 className="text-xl font-semibold text-white mb-2">Leave a Feedback</h3>
-                    <input
-                        type="text"
-                        placeholder="Your Name"
-                        className="w-full p-2 rounded bg-gray-800 text-white outline-none"
-                        value={formData.name}
-                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        required
-                    />
-                    <textarea
-                        placeholder="Your Message"
-                        className="w-full p-2 rounded bg-gray-800 text-white outline-none"
-                        rows={4}
-                        value={formData.message}
-                        onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                        required
-                    />
-                    <button
-                        type="submit"
-                        className="bg-yellow-400 text-black px-6 py-2 rounded hover:bg-yellow-300 transition"
-                    >
-                        Submit Feedback
-                    </button>
-                </form>
+                {/* Feedback Form */}
+                <div className="bg-[#100d25] p-8 rounded-2xl border border-white/5 shadow-xl">
+                    <h3 className="text-2xl font-semibold text-yellow-400 mb-8 text-left">
+                        Leave Your Feedback
+                    </h3>
+
+                    <form onSubmit={handleSubmit} className="space-y-6">
+                        {/* Name */}
+                        <div className="flex flex-col">
+                            <label className="text-white font-medium mb-2 flex items-center gap-2">
+                                <User className="w-4 h-4 text-yellow-400" />
+                                Your Name
+                            </label>
+                            <input
+                                type="text"
+                                placeholder="Enter your name"
+                                className="bg-[#1c1c3d] py-4 px-6 text-white rounded-lg outline-none"
+                                value={formData.name}
+                                onChange={(e) =>
+                                    setFormData({ ...formData, name: e.target.value })
+                                }
+                                required
+                            />
+                        </div>
+
+                        {/* Message */}
+                        <div className="flex flex-col">
+                            <label className="text-white font-medium mb-2 flex items-center gap-2">
+                                <MessageSquareQuote className="w-4 h-4 text-yellow-400" />
+                                Your Message
+                            </label>
+                            <textarea
+                                rows={5}
+                                placeholder="Share your experience"
+                                className="bg-[#1c1c3d] py-4 px-6 text-white rounded-lg outline-none"
+                                value={formData.message}
+                                onChange={(e) =>
+                                    setFormData({ ...formData, message: e.target.value })
+                                }
+                                required
+                            />
+                        </div>
+
+                        {/* Button */}
+                        <button
+                            type="submit"
+                            className="flex items-center gap-2 bg-yellow-400 text-black font-bold px-8 py-3 rounded-xl hover:bg-yellow-300 transition-all"
+                        >
+                            <Send className="w-4 h-4" />
+                            Submit Feedback
+                        </button>
+                    </form>
+                </div>
+
             </div>
         </section>
     );
