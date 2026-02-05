@@ -8,6 +8,7 @@ import { StarsCanvas } from "./canvas";
 // --- IMPORT CONTACT2 ---
 import Contact2 from "./Contact2";
 
+
 const Contact = () => {
     const [formData, setFormData] = useState({
         name: "",
