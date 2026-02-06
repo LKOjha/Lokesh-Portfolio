@@ -42,6 +42,54 @@ export const certificateData = [
         date: "12th December 2022",
         link: "/certificates/Cloud-practitioner-essentials.pdf",
     },
+    {
+        title: "Apply AI Analyze Customer Reviews",
+        issuer: "Cisco",
+        date: "23th December 2025",
+        link: "/certificates/Apply_AI-_Analyze_Customer_Reviews_.pdf",
+    },
+    {
+        title: "Networking Basics Indore",
+        issuer: "Cisco",
+        date: "20th December 2025",
+        link: "/certificates/Networking_Basics_Indore.pdf",
+    },
+    {
+        title: "Cyber Security",
+        issuer: "Cisco",
+        date: "28th November 2025",
+        link: "/certificates/Cyber_Security.pdf",
+    },
+    {
+        title: "Cisco Modern AI",
+        issuer: "Cisco",
+        date: "9th December 2025",
+        link: "/certificates/Cisco_Modern_AI.pdf",
+    },
+    {
+        title: "Network Defense",
+        issuer: "Cisco",
+        date: "23th December 2025",
+        link: "/certificates/Network_Defense.pdf",
+    },
+    {
+        title: "Python Programming",
+        issuer: "Red Hat",
+        date: "12th November 2025",
+        link: "/certificates/Python_programming.pdf",
+    },
+    {
+        title: "Programming in Java",
+        issuer: "Ret Hat",
+        date: "18th December 2025",
+        link: "/certificates/Programming_in_Java.pdf",
+    },
+    {
+        title: "Red Hat System Administrator",
+        issuer: "Red Hat",
+        date: "7th December 2025",
+        link: "/certificates/System_Administrator.pdf",
+    },
 
 
     // more certificates...
