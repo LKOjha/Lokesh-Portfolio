@@ -14,8 +14,6 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-// import Contact2 from "./pages/Contact2";
-import { StarsCanvas } from "./pages/canvas";
 
 function App() {
   const location = useLocation();

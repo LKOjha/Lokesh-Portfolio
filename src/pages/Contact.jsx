@@ -17,7 +17,7 @@ const Contact = () => {
         reason: "",
     });
 
-    const [errors, setErrors] = useState({});
+    // const [errors, setErrors] = useState({});
 
     const validate = () => {
         const newErrors = {};
@@ -28,7 +28,7 @@ const Contact = () => {
             newErrors.email = "Enter a valid email address.";
         if (!formData.reason.trim())
             newErrors.reason = "Reason is required.";
-        setErrors(newErrors);
+        // setErrors(newErrors);
         return Object.keys(newErrors).length === 0;
     };
 

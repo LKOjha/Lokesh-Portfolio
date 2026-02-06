@@ -1,8 +1,5 @@
 import { motion } from "framer-motion";
-import { Award } from "lucide-react"; // Optional: install lucide-react icons
-
-// import { Briefcase } from "lucide-react";
-// import { experienceData } from "../data/experience"; // adjust path if needed
+import { Award } from "lucide-react"; 
 import { certificateData } from "../data/certificates";
 const About = () => {
     return (

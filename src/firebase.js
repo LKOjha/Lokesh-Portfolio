@@ -1,7 +1,6 @@
 // src/firebase.js
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore"; // ✅ Required
-import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
   apiKey: "AIzaSyD5IinCk_-M1dN-rh890PvsTBH1cMrJbdY",
@@ -15,7 +14,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 const db = getFirestore(app); // ✅ Firestore initialization
 
 export { db }; // ✅ export this to use in your components
