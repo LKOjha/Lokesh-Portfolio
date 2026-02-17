@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Card Carousel Hero - Continuous Rotation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <section class="hero">
+      <div class="hero-content">
+        <span class="badge">✨ Modern UI Experience</span>
+        <h1 class="headline">
+          <span>Non-Stop</span>
+          <span>3D</span>
+          <span>Carousel</span>
+        </h1>
+
+        <p class="fade-in">This gallery rotates indefinitely. Hovering or
+          clicking will not pause the movement, creating a truly background-like
+          cinematic effect.</p>
+        <button class="fade-in delay magnetic">Get Started</button>
+      </div>
+
+      <div class="carousel-bg" id="carousel3D">
+        <div class="carousel-hint">— Click to open card —</div>
+        <div class="card-scene ">
+          <div class="card-ring">
+            <div class="card "><img
+                src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=500&auto=format&fit=crop"
+                alt="Tech Setup"></div>
+
+            <div class="card"><img
+                src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?q=80&w=500&auto=format&fit=crop"
+                alt="Cyberpunk City"></div>
+
+            <div class="card"><img
+                src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=500&auto=format&fit=crop"
+                alt="Abstract Blue"></div>
+
+            <div class="card"><img
+                src="https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=500&auto=format&fit=crop"
+                alt="Abstract Textures"></div>
+
+            <div class="card"><img
+                src="https://images.unsplash.com/photo-1502134249126-9f3755a50d78?q=80&w=500&auto=format&fit=crop"
+                alt="Deep Space"></div>
+
+            <div class="card"><img
+                src="https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=500&auto=format&fit=crop"
+                alt="Neon Grid"></div>
+
+            <div class="card"><img
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500&auto=format&fit=crop"
+                alt="Code Theme"></div>
+
+            <div class="card"><img
+                src="https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?q=80&w=500&auto=format&fit=crop"
+                alt="Starry Night"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="cardViewer" class="card-viewer hidden">
+      <div class="viewer-backdrop"></div>
+      <div class="viewer-content"></div>
+    </div>
+
+    <canvas id="cursorCanvas"></canvas>
+
+    <script src="script.js"></script>
+  </body>
+</html>
