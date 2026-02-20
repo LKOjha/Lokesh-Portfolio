@@ -1,13 +1,21 @@
 [
-    {
+  {
+    "title": "Maivera Parallax Experience",
+    "description": "A cinematic single-page parallax website featuring layered scroll animations, vertical storytelling cards, 3D motion effects, and immersive UI interactions designed for the Maivera digital fashion concept.",
+    "image": "/maivera-parallax.png",
+    "techStack": "React, Tailwind CSS, JavaScript, Parallax Scrolling, CSS 3D Transforms",
+    "demoLink": "https://maivera-parallax.vercel.app/",
+    "githubLink": "https://github.com/LKOjha/Maivera_Parallax_Page"
+  },
+  {
     "title": "3D Product Crausal",
-    "description": "Dynamic 3D Product Craousel Templet",
+    "description": "A responsive 3D carousel component that displays products using CSS 3D transforms, perspective, and smooth transitions. Designed for seamless integration into modern web applications, enhancing user engagement and UI aesthetics.",
     "image": "/product.png",
     "techStack": "HTML, CSS, JavaScript",
     "demoLink": "/demo/3d_Card_Carousel.html",
-    "githubLink": "https://github.com/LKOjha/Karori-Academic-Advisor"
+    "githubLink": "https://github.com/LKOjha/3D_Carousel_Hero_Product"
   },
-    {
+  {
     "title": "Karori Academic Advisor",
     "description": "Karori Academic Advisor is a frontend-based informational website designed to guide 12th-pass students in their academic journey. Built with React and Tailwind CSS, it provides clear insights into courses, career paths, and services. The platform offers a modern, responsive, and user-friendly experience, making educational guidance easily accessible.",
     "image": "/karori.png",
@@ -15,7 +23,7 @@
     "demoLink": "https://www.karoriacademicadvisor.com/",
     "githubLink": "https://github.com/LKOjha/Karori-Academic-Advisor"
   },
-    {
+  {
     "title": "B&D Creations",
     "description": "B&D Creations is a mini e-commerce platform built with the MERN stack, made for art students to showcase and sell their artwork online. It features a product gallery, shopping cart, admin panel, and contact form with email notifications. The site is fully responsive, user-friendly, and designed to help young artists promote their work easily.",
     "image": "/bdcreations.png",
@@ -23,7 +31,7 @@
     "demoLink": "/demo/bdcreations.html",
     "githubLink": "https://github.com/LKOjha/B-D_Creations-Front-end-only-"
   },
-    {
+  {
     "title": "Auto_Rescue",
     "description": "This is an Automatic Door Locking System operated via voice command, built using an Arduino Uno, AI Thinker module, car door actuator, and other basic components.",
     "image": "/Auto-Rescue.png",
@@ -96,4 +104,3 @@
     "githubLink": "https://github.com/LKOjha/Student-crud-app"
   }
 ]
- 
